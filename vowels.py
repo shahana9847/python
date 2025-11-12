@@ -4,4 +4,4 @@ vowel_list=[]
 for ch in word:
     if ch in vowels:
         vowel_list.append(ch)
-print("vowels:",vowel_list)        
+print("vowels:",vowel_list)

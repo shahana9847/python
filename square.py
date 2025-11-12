@@ -1,6 +1,6 @@
-n=int(input("enter total numbers :"))
+n=int(input("enter total numbers:"))
 squares=[]
 for i in range(n):
-    num=int(input("enter number:"))
+    num=int(input("enter number"))
     squares.append(num*num)
-print("squares:",squares)    
+print("squares:",squares)
