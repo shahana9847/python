@@ -1,5 +1,7 @@
-def surface_area(l, b, h):
-    return 2 * (l*b + b*h + l*h)
+import math
 
-def perimeter(l, b, h):
-    return 4 * (l + b + h)
+def surface_area(r):
+    return 4 * math.pi * r * r
+
+def perimeter(r):  # great circle
+    return 2 * math.pi * r
